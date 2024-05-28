@@ -15,7 +15,7 @@ const HeroImage = () => {
             <p> Aiden Lapp </p>
             <h1> Computer Science Student</h1>
             <div>
-                <Link to="/project" className= "btn">Projects
+                <Link to="/project" className= "btn-light">Projects
                 </Link>
                 <Link to="/contact" className= "btn-light">Contact
                 </Link>
