@@ -19,7 +19,7 @@ const Footer = () => {
                   About Me
               </h4>
               <p>
-                I am an undergraduate computer science student at North Carolina State Univeristy, with a concentration in cybersecurity. 
+                I am an undergraduate computer science student at North Carolina State Univeristy 
               </p>
               <div className = "social"> 
              
