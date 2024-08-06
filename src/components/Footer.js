@@ -11,6 +11,7 @@ const Footer = () => {
                    <h4><FaMailBulk size = {20} style={{color: "#fff", marginRight: "2rem" }} />
                     adlapp@ncsu.edu
                    </h4>
+                   <h4> <FaLinkedin size = {20} style={{color: "#fff", marginRight: "2rem" }} /></h4>
                 </div>
             </div>
             <div className= "right">
@@ -22,8 +23,7 @@ const Footer = () => {
                 I am an undergraduate computer science student at North Carolina State Univeristy 
               </p>
               <div className = "social"> 
-             
-                   <FaLinkedin size = {20} style={{color: "#fff", marginRight: "2rem" }} />
+                   
                 
               </div>
             </div>

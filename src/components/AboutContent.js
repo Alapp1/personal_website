@@ -13,7 +13,7 @@ const AboutContent = () => {
             <ul>
                 <li>Java</li>
                 <li>C</li>
-                <li>X86 Assembly</li>
+                <li>Python</li>
                 <li>Operating Systems</li>
                 <li>Data Structures and Algorithms</li>
             </ul>

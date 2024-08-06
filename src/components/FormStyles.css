@@ -2,14 +2,16 @@ label {
     color: white;
     margin-bottom: 0.5rem;
     cursor: pointer; /* Ensures the label appears clickable */
+    font-size: 1rem; /* Adjust font size for better readability on small screens */
 }
 
 form {
     display: flex;
     flex-direction: column;
-    padding: 4rem 1rem;
+    padding: 2rem 1rem; /* Reduce padding for smaller screens */
     margin: auto;
-    max-width: 600px;
+    max-width: 90%; /* Ensure form fits within the viewport on small screens */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 form input, form textarea {
@@ -19,6 +21,14 @@ form input, form textarea {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
+    border-radius: 4px; /* Ensure consistent border-radius */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+form input:focus, form textarea:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Add custom focus border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add focus shadow for better visibility */
 }
 
 form button {
@@ -29,8 +39,23 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-form button:hover {
-    background-color: #0056b3;
+
+@media screen and (max-width: 480px) {
+    form {
+        padding: 1rem 0.5rem; /* Further reduce padding on very small screens */
+    }
+
+    form input, form textarea {
+        font-size: 1rem; /* Adjust font size for better readability on very small screens */
+        padding: 8px 14px; /* Adjust padding for better fit on very small screens */
+    }
+
+    form button {
+        font-size: 1rem; /* Adjust font size for better readability on very small screens */
+        padding: 8px 14px; /* Adjust padding for better fit on very small screens */
+    }
 }
