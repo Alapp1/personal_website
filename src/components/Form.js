@@ -27,6 +27,12 @@ const Form = () => {
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
       alert('Email sent successfully!');
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
     }, (err) => {
       console.log('FAILED...', err);
       alert('Failed to send email. Please try again later.');
@@ -36,17 +42,46 @@ const Form = () => {
   return (
     <div className="form">
       <form onSubmit={handleSubmit}>
-        <label>Your Name</label>
-        <input type="text" name="name" value={formData.name} onChange={handleChange} required />
+        <label htmlFor="name">Your Name</label>
+        <input 
+          type="text" 
+          id="name" 
+          name="name" 
+          value={formData.name} 
+          onChange={handleChange} 
+          required 
+        />
 
-        <label>Email</label>
-        <input type="email" name="email" value={formData.email} onChange={handleChange} required />
+        <label htmlFor="email">Email</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          value={formData.email} 
+          onChange={handleChange} 
+          required 
+        />
 
-        <label>Subject</label>
-        <input type="text" name="subject" value={formData.subject} onChange={handleChange} required />
+        <label htmlFor="subject">Subject</label>
+        <input 
+          type="text" 
+          id="subject" 
+          name="subject" 
+          value={formData.subject} 
+          onChange={handleChange} 
+          required 
+        />
 
-        <label>Message</label>
-        <textarea rows="6" name="message" value={formData.message} onChange={handleChange} placeholder="Type your message here" required />
+        <label htmlFor="message">Message</label>
+        <textarea 
+          rows="6" 
+          id="message" 
+          name="message" 
+          value={formData.message} 
+          onChange={handleChange} 
+          placeholder="Type your message here" 
+          required 
+        />
 
         <button type="submit" className="btn-light">Submit</button>
       </form>
