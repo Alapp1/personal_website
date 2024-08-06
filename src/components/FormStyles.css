@@ -41,8 +41,12 @@ form button {
     cursor: pointer;
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     box-sizing: border-box; /* Include padding and border in element's total width and height */
+    touch-action: manipulation; /* Ensure better touch handling */
 }
 
+form button:active {
+    background-color: #0056b3; /* Change color on touch */
+}
 
 @media screen and (max-width: 480px) {
     form {
