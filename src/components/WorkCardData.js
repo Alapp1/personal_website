@@ -13,7 +13,7 @@ const ProjectCardData = [
     {
         imgsrc: thermostat,
         title: "IoT Thermostat Dashboard",
-        text: "Nothing here yet...",
+        text: "A collaborative home automation project where we developed a remote thermostat control system",
         view: "https://github.com/Alapp1/thermostat",
         source: "https://github.com/Alapp1/thermostat"
     },
