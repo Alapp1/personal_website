@@ -5,7 +5,7 @@ import thermostat from "../assets/thermostat.jpg"
 const ProjectCardData = [
     {
         imgsrc: pro3,
-        title: "Flight Finder - In Progress",
+        title: "Flight Finder",
         text: "A python script that cycles VPN locations and scrapes the web for the cheapest flight",
         view: "https://github.com/Alapp1/flight_finder",
         source: "https://github.com/Alapp1/flight_finder/blob/main/flights.py"
