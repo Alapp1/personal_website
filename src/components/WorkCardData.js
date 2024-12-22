@@ -6,9 +6,9 @@ const ProjectCardData = [
     {
         imgsrc: pro3,
         title: "Flight Finder",
-        text: "A python script that cycles VPN locations and scrapes the web for the cheapest flight",
+        text: "A pair of python scripts that use Selenium and Amadeus to find the cheapest flight on the web",
         view: "https://github.com/Alapp1/flight_finder",
-        source: "https://github.com/Alapp1/flight_finder/blob/main/flights.py"
+        source: "https://github.com/Alapp1/flight_finder/blob/main/amadeus_flight_finder.py"
     },
     {
         imgsrc: thermostat,
