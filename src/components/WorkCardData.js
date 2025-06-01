@@ -1,15 +1,15 @@
 import pro2 from "../assets/CTF.jpg";
 import pro3 from "../assets/auditor.jpg";
 import thermostat from "../assets/thermostat.jpg";
-import linux-1 from "../assets/linux-1.jpg"
-import linux-2 from "../assets/linux-2.jpg"
+import linux1 from "../assets/linux-1.jpg";
+import linux2 from "../assets/linux-2.jpg";
 
 const ProjectCardData = [
   {
     imgsrc: pro3,
     title: "Linux Security Auditor",
     text: "A comprehensive security scanning tool for Linux systems that identifies misconfigurations and vulnerabilities across SSH and system configurations.",
-    view: [linux-1, linux-2],
+    view: [linux1, linux2],
     source: "https://github.com/Alapp1/linux-security-auditor",
   },
   {
