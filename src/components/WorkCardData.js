@@ -1,8 +1,8 @@
-import pro2 from "../assets/CTF.jpg";
+//import pro2 from "../assets/CTF.jpg";
 import pro3 from "../assets/auditor.jpg";
 import thermostat from "../assets/thermostat.jpg";
-import linux1 from "../assets/linux-1.jpg";
-import linux2 from "../assets/linux-2.jpg";
+//import linux1 from "../assets/linux-1.jpg";
+//import linux2 from "../assets/linux-2.jpg";
 import tcpjpg from "../assets/tcp.jpg";
 
 const ProjectCardData = [
