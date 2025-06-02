@@ -3,6 +3,7 @@ import pro3 from "../assets/auditor.jpg";
 import thermostat from "../assets/thermostat.jpg";
 import linux1 from "../assets/linux-1.jpg";
 import linux2 from "../assets/linux-2.jpg";
+import tcpjpg from "../assets/tcp.jpg";
 
 const ProjectCardData = [
   {
@@ -20,11 +21,11 @@ const ProjectCardData = [
     source: "https://github.com/Alapp1/thermostat",
   },
   {
-    imgsrc: pro2,
-    title: "CTF Writeups",
-    text: "A collection of CTF challenges collaboratively completed by students",
-    view: "https://github.com/Alapp1/CTF-Writeups",
-    source: "https://github.com/Alapp1/CTF-Writeups",
+    imgsrc: tcpjpg,
+    title: "TCP Protocol Analysis",
+    text: "Implemented a dumbbell network topology in ns-3 to evaluate performance of TCP Cubic and DCTCP congestion control algorithms",
+    view: "https://github.com/Alapp1/TCP-Protocols-Analysis",
+    source: "https://github.com/Alapp1/TCP-Protocols-Analysis",
   },
 ];
 
