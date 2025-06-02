@@ -9,7 +9,7 @@ const ProjectCardData = [
   {
     imgsrc: pro3,
     title: "Linux Security Auditor",
-    text: "A comprehensive security scanning tool for Linux systems that identifies misconfigurations and vulnerabilities across SSH and system configurations.",
+    text: "A comprehensive security scanning tool for Linux systems that identifies misconfigurations and vulnerabilities across SSH and system configurations",
     view: "https://github.com/Alapp1/linux-security-auditor",
     source: "https://github.com/Alapp1/linux-security-auditor",
   },
